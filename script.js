@@ -319,7 +319,7 @@ help5050.addEventListener('click', () => {
 helpAudience.addEventListener('click', () => {
     helpAudience.disabled = true;
     helpAudience.innerText = 'Wykorzystano';
-    window.open('https://techni-milionerzy.vercel.app/');
+    window.open('https://techni-milionerzy.vercel.app/qr');
 
 });
 

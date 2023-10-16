@@ -69,7 +69,7 @@ const questionPools = {
         },
         {
             question: "Który z ptaków kuka?",
-            options: ["Samica kulki", "Samiec kukułki", "Samiec gżegrzułki", "Samiec zazuli"],
+            options: ["Samica kulki", "Samiec kukułki", "Samiec gżegżółki", "Samiec zazuli"],
             correctAnswer: 1
         },
         {
@@ -152,7 +152,7 @@ const questionPools = {
         {
             question: "Która memiczna liczba jest związana z papieżem?",
             options: ["420", "69", "2137", "1337"],
-            correctAnswer: 1
+            correctAnswer: 2
         }
     ],
     D: [
@@ -169,7 +169,7 @@ const questionPools = {
         {
             question: "Co w ruchu drogowym oznacza sześciokątny znak?",
             options: ["STOP", "Ustąp pierwszeństwa", "Zakaz zatrzymywania", "Droga główna"],
-            correctAnswer: 1
+            correctAnswer: 0
         },
         {
             question: "Kuchenny synonim przekrętu to:",
@@ -194,7 +194,7 @@ const questionPools = {
         {
             question: "Ile stolic mają Chiny?",
             options: ["4", "3", "2", "1"],
-            correctAnswer: 2
+            correctAnswer: 1
         },
         {
             question: "W którym roku powstał Discord szkolny?",

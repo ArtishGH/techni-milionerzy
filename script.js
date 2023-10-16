@@ -226,6 +226,7 @@ poolSelectionButtons.forEach(button => {
 const questionElement = document.getElementById('question');
 const optionButtons = document.getElementById('options');
 const nextButton = document.getElementById('nextBtn');
+const help = document.getElementById('help');
 
 function startGame() {
     currentQuestionIndex = 0;
@@ -279,6 +280,8 @@ function showGameOverScreen() {
     questionElement.innerText = 'Koniec gry';
     optionButtons.innerHTML = '';
     nextButton.classList.add('hide');
+    help.classList.add('hide');
+
 
     const gameOverMessage = document.createElement('p');
     gameOverMessage.innerText = 'Dziękujemy za udział w grze';
@@ -293,4 +296,35 @@ nextButton.addEventListener('click', () => {
     else {
         showGameOverScreen();
     }
+});
+
+const help5050 = document.getElementById('help5050');
+const helpAudience = document.getElementById('helpAudience');
+const helpPhone = document.getElementById('helpPhone');
+
+help5050.addEventListener('click', () => {
+    const currentQuestion = questionPools[selectedPool][currentQuestionIndex];
+    const correctIndex = currentQuestion.correctAnswer;
+    const wrongIndex = Math.floor(2);
+    Array.from(optionButtons.children).forEach((button, index) => {
+        if (index !== correctIndex && index !== wrongIndex) {
+            button.disabled = true;
+            button.classList.add('wrong');
+        }
+    });
+    help5050.disabled = true;
+    help5050.innerText = 'Wykorzystano';
+});
+
+helpAudience.addEventListener('click', () => {
+    helpAudience.disabled = true;
+    helpAudience.innerText = 'Wykorzystano';
+    window.open('https://techni-milionerzy.vercel.app/');
+
+});
+
+helpPhone.addEventListener('click', () => {
+    helpPhone.disabled = true;
+    helpPhone.innerText = 'Wykorzystano';
+    alert('30 sekund odliczane na tablicy');
 });

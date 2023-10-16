@@ -22,8 +22,8 @@ const questionPools = {
         },
         {
             question: "Który z podanych youtuberów jest obecnie oskarżany o pedofilię?",
-            options: ["Książulo", "Blowek", "Stuu", "Multi"],
-            correctAnswer: 2
+            options: ["Książulo", "Blowek", "Multi", "Stuu"],
+            correctAnswer: 3
         },
         {
             question: "Jaki przedmiot ma najwięcej godzin w czasie całego cyklu nauki w szkole?",
@@ -59,7 +59,7 @@ const questionPools = {
         },
         {
             question: "Dokończ fragment ballady 'Świtezianka' A. Mickiewicza: 'Dochowaj, strzelcze, to moja rada: bo kto przysięgę naruszy, ach, biada jemu, za życia biada!...",
-            options: ["Będzie ciągany za uszy!", "Szczerniały ząb mu się skruszy", "I BIADA JEGO ZŁEJ DUSZY", "Kij będzie nosił kostuszy!"],
+            options: ["Będzie ciągany za uszy!", "Szczerniały ząb mu się skruszy", "I biada jego złej duszy", "Kij będzie nosił kostuszy!"],
             correctAnswer: 2
         },
         {
@@ -74,7 +74,7 @@ const questionPools = {
         },
         {
             question: "Ile około lat ma Ziemia?",
-            options: ["2023 lata", "2 miliony lat", "4 MILIARDY LAT", "5000 lat"],
+            options: ["2023 lata", "2 miliony lat", "4 miliardy lat", "5000 lat"],
             correctAnswer: 2
         },
         {
@@ -88,7 +88,7 @@ const questionPools = {
             correctAnswer: 3
         },
         {
-            question: "Kiedy kończymy jeść, układamy sztućce tak, aby wskazywały godzinę?",
+            question: "Jaką godzinę powinny wskazywać sztućce po zakończonym posiłku?",
             options: ["15:00", "17:00", "20:00", "19:00"],
             correctAnswer: 1
         },
@@ -115,7 +115,7 @@ const questionPools = {
             correctAnswer: 3
         },
         {
-            question: "Jedno jajko gotuje się przez 2 minuty. Jasiu chce ugotować 12 jajek. Ile czasu mu to zajmie?",
+            question: "Jedno jajko gotuje się przez 2 minuty. Jasiu chce ugotować 12 jajek. Ile minut będzie potrzebował?",
             options: ["24 minuty", "12 minut", "4 minuty", "2 minuty"],
             correctAnswer: 3
         },
@@ -140,7 +140,7 @@ const questionPools = {
             correctAnswer: 0
         },
         {
-            question: "Który kraj, prócz Monako, ma flagę, która wygląda jak odwrócona do góry nogami flaga Polski?",
+            question: "Który kraj, poza Monako, ma flagę, która wygląda jak odwrócona do góry nogami flaga Polski?",
             options: ["Litwa", "Łotwa", "Egipt", "Indonezja"],
             correctAnswer: 3
         },
@@ -197,7 +197,7 @@ const questionPools = {
             correctAnswer: 2
         },
         {
-            question: "W którym roku powstał DSC szkolny?",
+            question: "W którym roku powstał Discord szkolny?",
             options: ["2022", "2023", "2021", "Jeszcze nie powstał"],
             correctAnswer: 0
         },
@@ -206,7 +206,6 @@ const questionPools = {
             options: ["Klasa 3", "Klasa 4", "Klasa 2a", "Klasa 2b"],
             correctAnswer: 1
         }
-        // Dodaj więcej pytań dla puli D
     ]
 };
 
